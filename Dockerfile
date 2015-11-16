@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Kinetic Supply Co. <developers@kineticsupply.com>
+MAINTAINER Griffith T. Pickett <pickett65@gmail.com>
 
 ENV JAVA_HOME "/usr/lib/jvm/java-7-openjdk-amd64/"
 ENV NUTCH_HOME "/usr/local/src/nutch"
