@@ -46,7 +46,6 @@ $NUTCH_HOME/runtime/local/bin/nutch updatedb -all
 $NUTCH_HOME/runtime/local/bin/nutch index -all
 ```
 
-
 ## License
 (The MIT License)
 
