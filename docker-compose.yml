@@ -1,0 +1,21 @@
+nutch:
+  image: kinetic/nutch
+  ports:
+    - "8083:8080"
+    - "8084:8081"
+  links:
+    - "mongoNutch:mongo"
+    - "elasticsearchNutch:elasticsearch"
+  environment:
+    - SEEDLIST="http://reddit.com/r/node/"
+mongoNutch:
+  image: mongo
+  ports:
+    - "27020:27017"
+  volumes:
+    - "./data/mongo:/data/db"
+elasticsearchNutch:
+  image: elasticsearch:1.4
+  ports:
+    - "9200:9200"
+    - "9300:9300"
