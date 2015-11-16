@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/tpickett/mongo-elasticsearch-nutch/badges/gpa.svg)](https://codeclimate.com/github/tpickett/mongo-elasticsearch-nutch)
+
 [Apache Nutch](http://nutch.apache.org/) is a highly extensible and scalable open source web crawler software project. A well matured, production ready crawler.
 
 ## Before You Begin
